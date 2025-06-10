@@ -7,11 +7,15 @@
 // clg
 // console.log(process.argv)
 
-if (process.argv[2] == '--help') {
+// if (process.argv[2] == '--help') {
 
-    console.log("Menú de ayuda:	")
-    console.log("...")
- } else {
-    console.log("Ejecutar la aplicación")
- }
+//     console.log("Menú de ayuda:	")
+//     console.log("...")
+//  } else {
+//     console.log("Ejecutar la aplicación")
+//  }
+
+// console.log(process.argv);
+
+console.log(`Buenos días,${process.argv[2]} !`);
 
